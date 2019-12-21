@@ -50,4 +50,5 @@ class Song
     song = self.create_by_name(song_name.chomp(".mp3"))
     song.artist_name = artist_name
     song
+  end
 end
